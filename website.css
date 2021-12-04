@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+
+margin: 0;
+padding: 0;
+
+
+
+
+}
+
+.left-heading
+{
+  
+    float: left;
+    font-weight: bolder;
+    color: white;
+    /*background-color: black;*/
+    margin-top: 2rem;
+    margin-left: 5rem;
+  
+  }
+.container{
+    width: 100%;
+    height: 100%;
+}
+.sub-container
+{
+  
+   
+    display: inline-block;
+}
+#details
+{
+  
+    margin-top: 1rem;
+    width: 30rem;
+
+  margin-left: 40rem;
+   height: 100%;
+  
+}
+
+
+.img1{
+
+    height: 35rem;
+    width: 34rem;
+    margin-left: -1rem;
+    padding-left: 3rem;
+    margin-top: -3rem;
+ 
+
+}
+.img2{
+display: none;
+}
+#social
+{
+    display: inline-block;
+    color: white;
+   margin-left: 2rem;
+}
+.social-cont
+{
+    margin-left: 5rem;
+   
+}
+.social-cont1
+{
+   display: none;
+   
+}
+
+.icons
+{
+    float: right;
+    width: 20rem;
+
+}
+input
+{
+    border-radius: 1.4rem;
+    padding-left: 1rem;
+}
+#image
+{
+    width: 24rem;
+  
+    position: absolute;
+   
+    margin-left: -5rem;
+    background-color: black;
+
+  
+
+}
+#icons
+{
+    margin-right: 1rem;
+}
+nav
+{
+    margin-top: 2rem;
+    
+
+    
+}
+.breadcrumb-item a
+{
+  color: black !important; 
+      text-decoration: none;  
+      font-weight: bolder
+}
+.right-heading
+{
+    width: 18rem;
+    font-weight: bolder;
+}
+#star
+{
+   color: orange;
+}
+.rating-votes
+{
+    display: inline-block;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+h6
+{
+    color: darkblue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.price
+{
+    display: inline-block;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+#discount-price
+{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+#original-price
+{
+    text-decoration: line-through;
+}
+.custom-color
+{
+    display: inline-block;
+    border-radius: 50%;
+  
+    width: 1.5rem;
+    height: 1.2rem;
+    margin-left: 0.4rem;
+ 
+
+}
+span
+{
+    font-size: 1.2rem;
+  padding: 0.8rem 0.8rem;
+
+}
+#minus
+{
+    margin-left: 1rem;
+}
+
+.custom-div
+{
+    width: 8rem;
+    border-radius: 1.5rem;
+    background-color: whitesmoke;
+    height: 3rem;
+  padding: 0.8rem 0.8rem;
+}
+.purchase
+{
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.custom
+{
+    display: inline-block;
+    
+   
+}
+
+#color1
+{
+    background-color: greenyellow;
+
+}
+#tick
+{
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+#color2
+{
+    background-color: white;
+}
+#color3
+{
+    background-color: hotpink;
+}
+
+button
+{
+    width: 15rem;
+    margin-right: 2rem;
+
+    background-color: darkblue;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1.3rem;
+    height: 3rem;
+}
+ @media only screen and (max-width: 1120px)
+ {
+    #details
+    {
+        margin-left: 30rem;
+    }
+ }
+
+  @media only screen and (max-width: 991px)
+  {
+    *
+    {
+        font-size: 1rem;
+    }
+    p 
+    {
+        width: 20rem;
+    }
+    button{
+        width: 8rem;
+    }
+    
+    .img1
+    {
+      margin-left: 5rem;
+        width: 25rem;
+        height: 100vh;
+    }
+    #details
+    {
+        margin-left: 25rem;
+    }
+  }
+ @media only screen and (max-width: 768px)
+ {
+    #image
+    {
+        position: relative;
+    }
+    .img2{
+        width: 9rem;
+        height: 7rem;
+       display: block;
+    }
+    input
+    {
+        display: none;
+
+    }
+    #social
+    {
+        display: none;
+    }
+    #social1
+    {
+        margin-left: 1rem;
+    }
+    .social-cont1
+    {
+        display: block;
+        margin-left: 5rem;
+    }
+
+
+    #icons
+    {
+       
+      
+       float: right;
+      position: relative;
+       margin-right: 1rem;
+       color: white;
+     
+       
+    }
+    .icons
+    {
+
+      margin-left: 10rem;
+        margin-top: -4rem;
+    }
+    #image
+    {
+        width: 150%;
+    }
+    #details{
+        margin-left: 3rem;
+        position: relative;
+    }
+
+    .sub-container
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .img1
+    {
+        display: none;
+    }
+ }
+ @media only screen and (max-width: 498px)
+ {
+    .icons
+    {
+        margin-left: 6rem;
+    }
+ }
+  @media only screen and (max-width: 440px)
+ {
+    .icons
+    {
+        margin-left: 3rem;
+    }
+ }
+  @media only screen and (max-width: 560px)
+  {
+    *
+    {
+        font-size: 0.9rem;
+    }
+
+  }
